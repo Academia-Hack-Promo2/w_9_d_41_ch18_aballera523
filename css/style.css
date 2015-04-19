@@ -1,56 +1,61 @@
-/*
 body {
-    padding-top: 50px;
+    font-family: Roboto light;
+    font-size: 16px;
 }
 
-.starter-template {
-    padding: 40px 15px;
-    text-align: center;
-}
-*/
-
-.navbar {
+#navbar {
     background: #ffffff;
-    height: 86px;
-}
-
-#logo {
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-#menu {
-    padding-top: 12px;
-}
-
-#menu2 {
-    padding-top: 12px;
-    margin-right: 80px;
-}
-
-#menu2 img {
-    max-height: 25px;
-    max-width: 25px;
-    margin-left: 3px;
-}
-
-.steps {
-    margin: 0;
+    max-height: 100px;
+    border: 0;
     padding: 0;
 }
 
-.left,
-.right {
-    position: absolute;
-    top: 49%;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 90;
-    width: 33px;
-    height: 60px;
+.navbar-brand {
+    position: relative;
+    left: 45px;
+    padding: 0;
 }
 
-.left img,
-.right img {
-    width: 21px;
-    height: 37px;
+#rif {
+    margin: 70px 0px 10px 120px;
+}
+
+#right {
+    margin-top: 25px;
+    margin-right: 60px;
+}
+
+.carousel {
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#info {
+    position: absolute;
+    top: 580px;
+    text-align: justify;
+    color: white;
+}
+
+#info h4 {
+    text-align: center;
+}
+
+#tecnologia,
+#formulas,
+#medicamentos {
+    height: 365px;
+}
+
+#tecnologia {
+    background-color: rgba(88, 86, 144, 0.8);
+}
+
+#formulas {
+    background-color: rgba(110, 108, 179, 0.8);
+}
+
+#medicametos {
+    background-color: rgba(134, 132, 219, 0.8);
 }
