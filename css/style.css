@@ -38,14 +38,15 @@ body {
     color: white;
 }
 
-#info h4 {
+#info {
     text-align: center;
 }
 
 #tecnologia,
 #formulas,
 #medicamentos {
-    height: 365px;
+    height: 380px;
+    padding: 15px;
 }
 
 #tecnologia {
@@ -56,6 +57,12 @@ body {
     background-color: rgba(110, 108, 179, 0.8);
 }
 
-#medicametos {
+#medicamentos {
     background-color: rgba(134, 132, 219, 0.8);
+}
+
+#somos {
+    position: relative;
+    top: 980px;
+    font-family: Roboto thin;
 }
