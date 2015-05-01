@@ -2,8 +2,6 @@
 <html>
 
 <head>
-    .starter-template { padding: 40px 15px; text-align: center; } */
-
     <title>LETI</title>
     <meta charset="UTF-8">
     <meta name="description" content="" />
@@ -13,148 +11,324 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">
-                        <img alt="Brand" src="images/logo.png">
-                    </a>
-                    <p id="rif">J-00021500-6</p>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right" id="right">
-                        <li><a href="#"><h4>Inicio</h4></a>
-                        </li>
-                        <li><a href="#somos"><h4>Quienes somos</h4></a>
-                        </li>
-                        <li><a href="#productos"><h4>Productos</h4></a>
-                        </li>
-                        <li><a href="#contactanos"><h4>Contáctanos</h4></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-        <div class="carousel">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="images/carrusel1.jpg" alt="...">
-                        <div class="carousel-caption">
-                            ...
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/carrusel2.jpg" alt="...">
-                        <div class="carousel-caption">
-                            ...
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/carrusel3.jpg" alt="...">
-                        <div class="carousel-caption">
-                            ...
-                        </div>
-                    </div>
-                    ...
-                </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-fast-backward" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+    <!--   desde aqui seccion "barra de navegación"-->
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="images/logo.png">
                 </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-forward" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <p id="rif">J-00021500-6</p>
             </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" id="right">
+                    <li><a href="#" id="menu1"><h4>Inicio</h4></a>
+                    </li>
+                    <li><a href="#somos" id="menu2"><h4>Quienes somos</h4></a>
+                    </li>
+                    <li><a href="#productos" id="menu3"><h4>Productos</h4></a>
+                    </li>
+                    <li><a href="#contactanos" id="menu4"><h4>Contáctanos</h4></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--   desde aqui seccion "carousel"-->
+    <div class="carousel">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/carrusel1.jpg" alt="">
+                    <div class="carousel-caption">
+                        Variedad de
+                        <br>medicamentos
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/carrusel2.jpg" alt="">
+                    <div class="carousel-caption">
+                        Las mejores fórmulas
+                        <br>con la mejor tecnología
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/carrusel3.jpg" alt="">
+                    <div class="carousel-caption">
+                        Fórmulas de
+                        <br>calidad superior
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <div class="circle">
+                    <div class="arrow" id="left">
+                    </div>
+                </div>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next" id="right1">
+                <div class="circle">
+                    <div class="arrow" id="right">
+                    </div>
+                </div>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
 
-        <!--   hasta aquí el carousel-->
-        <div class="row" id="info">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <div class="col-md-4" id="tecnologia">
-                    <div align="center">
-                        <img src="images/microscopio.png" alt="">
-                    </div>
 
-                    <h4>Tecnología avanzada</h4>
-                    <br> Aplicando nuestras tecnologías se logran formulaciones que le confieren a los productos farmacéuticos características diferenciales que mejoran la actividad del principio activo, la biodisponibilidad, la velocidad de absorción, el enmascarando del sabor y el control de la liberación.</div>
-                <div class="col-md-4" id="formulas">
-                    <div align="center">
-                        <img src="images/microscopio.png" alt="">
-                    </div>
-                    <h4>Las mejores fórmulas</h4>
-                    <br> A través de Investigación y Desarrollo, realizamos los estudios que permiten garantizar la estabilidad y calidad de nuestros productos. Nuestra planta está en constante evolución y actualización, ajustada a las Buenas Prácticas de Manufactura y, utilizamos sistemas automatizados de almacenaje y dispensación que apoyan nuestras operaciones.
-                </div>
-                <div class="col-md-4" id="medicamentos">
-                    <div align="center">
-                        <img src="images/microscopio.png" alt="">
-                    </div>
-                    <h4>Variedad de medicamentos</h4>
-                    <br> Poseemos el portafolio de productos más amplio de la industria farmacéutica en Venezuela, lo que permite ofrecer una gran variedad de tratamientos que cubren distintas especialidades terapéuticas. Fabricamos más del 14% de los medicamentos que consumen los pacientes a nivel nacional, suministrando más de 10 millones de unidades al mes a toda Venezuela. </div>
-            </div>
-            <div class="col-md-1"></div>
-        </div>
-        <!--         hasta aquí el menú inicio-->
-        <!--        desde aqui seccion "quienes somos"-->
-        <section id="somos">
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
-                    <div class="col-md-9">
-                        <h1>Historia</h1>
-                    </div>
-                    <div class="col-md-3"></div>
-                </div>
-                <div class="col-md-1"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
-                    <div class="col-md-9">
-                        <p id="historia">
-                            En el año 1940 llega a Venezuela el Dr. José María Massa Servitja y da inicio a una labor de difusión científica y distribución de especialidades farmacéuticas inmunológicas de tecnología europea. Años mas tarde, con la llegada de Don Joaquín Massa Servitja deciden formar una sociedad, dando origen a: Laboratorios Leti S.A.V.Laboratorio de Experimental de Terapéutica Inmunológica. En el año 1948 construyen en Caracas la primera planta de Manufactura diseñada para la fabricación de productos inmunológicos.A partir de 1988 se comienza la construcción de una de las Plantas Farmacéuticas más moderna del país, la cual actualmente cuenta con un área total de 75.000 mts2, conformando el primer Laboratorio Farmacéutico de Venezuela, con capital totalmente nacional.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="nav nav-pills nav-stacked">
-                            <li role="presentation" class="active"><a href="#somos">Historia</a>
-                            </li>
-                            <li role="presentation"><a href="#mision">Misión</a>
-                            </li>
-                            <li role="presentation"><a href="#vision">Visión</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
-            </div>
-        </section>
     </div>
-    <script src="js/jquery-latest.js"></script>
+    <!--   hasta aquí el carousel-->
+    <div class="row" id="info">
+        <div class="col-lg-4" id="tecnologia">
+            <div align="center">
+                <img src="images/microscopio.png" alt="">
+            </div>
+
+            <h4>Tecnología avanzada</h4>
+            <br> Aplicando nuestras tecnologías se logran formulaciones que le confieren a los productos farmacéuticos características diferenciales que mejoran la actividad del principio activo, la biodisponibilidad, la velocidad de absorción, el enmascarando del sabor y el control de la liberación.</div>
+        <div class="col-lg-4" id="formulas">
+            <div align="center">
+                <img src="images/microscopio.png" alt="">
+            </div>
+            <h4>Las mejores fórmulas</h4>
+            <br> A través de Investigación y Desarrollo, realizamos los estudios que permiten garantizar la estabilidad y calidad de nuestros productos. Nuestra planta está en constante evolución y actualización, ajustada a las Buenas Prácticas de Manufactura y, utilizamos sistemas automatizados de almacenaje y dispensación que apoyan nuestras operaciones.
+        </div>
+        <div class="col-lg-4" id="medicamentos">
+            <div align="center">
+                <img src="images/microscopio.png" alt="">
+            </div>
+            <h4>Variedad de medicamentos</h4>
+            <br> Poseemos el portafolio de productos más amplio de la industria farmacéutica en Venezuela, lo que permite ofrecer una gran variedad de tratamientos que cubren distintas especialidades terapéuticas. Fabricamos más del 14% de los medicamentos que consumen los pacientes a nivel nacional, suministrando más de 10 millones de unidades al mes a toda Venezuela. </div>
+    </div>
+    <!--   hasta aquí el menú inicio-->
+    <!--   desde aqui seccion "quienes somos"-->
+    <section id="somos">
+        <div class="row">
+            <div class="col-md-9 col-md-offset-1">
+                <h1>Historia</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-1">
+                <p id="historia">
+                    En el año 1940 llega a Venezuela el Dr. José María Massa Servitja y da inicio a una labor de difusión científica y distribución de especialidades farmacéuticas inmunológicas de tecnología europea. Años mas tarde, con la llegada de Don Joaquín Massa Servitja deciden formar una sociedad, dando origen a: Laboratorios Leti S.A.V.Laboratorio de Experimental de Terapéutica Inmunológica. En el año 1948 construyen en Caracas la primera planta de Manufactura diseñada para la fabricación de productos inmunológicos.A partir de 1988 se comienza la construcción de una de las Plantas Farmacéuticas más moderna del país, la cual actualmente cuenta con un área total de 75.000 mts2, conformando el primer Laboratorio Farmacéutico de Venezuela, con capital totalmente nacional.
+                </p>
+            </div>
+            <div class="col-md-2">
+                <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation" class="active"><a href="#somos" id="somos2">Historia</a>
+                    </li>
+                    <li role="presentation"><a href="#mision" id="mision2">Misión</a>
+                    </li>
+                    <li role="presentation"><a href="#vision" id="vision2">Visión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container" id="imagen">
+            <img src="images/blackground_blue.jpg" alt="" id="imgblue">
+            <h3>"Nuestras tecnologías y conocimientos médicos, hacen de Laboratorios Leti ser de calidad</h3>
+        </div>
+    </section>
+    <!--   desde aqui seccion "productos"-->
+    <section id="productos">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-1">
+                <h1>Empresas Leti y productos </h1>
+            </div>
+        </div>
+        <div id="product">
+
+            <div class="row">
+                <div class="col-md-3 col-xs-offset-1" id="lab">Laboratorios Leti. S.A.V.
+                    <br> RIF: J-00021500-6 </div>
+                <div class="col-md-3" id="lab">Genven Genéricos Venezolanos
+                    <br> Rif: J-00344157-0 </div>
+                <div class="col-md-3" id="lab">Laboratorios Gentek, S.A.
+                    <br> RIF: J-00286274-2 </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-xs-offset-1" id="logo"><img src="images/logo.png" alt="" id="logo1">
+                </div>
+                <div class="col-md-3" id="logo"><img src="images/genericos-gv.png" alt="" id="logo2">
+                </div>
+                <div class="col-md-3" id="logo"><img src="images/gentek.jpg" alt="" id="logo3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-offset-1" id="precios">
+                    <div class="row">
+                        <div class="col-md-1"><img src="images/pdf.png" alt="">
+                        </div>
+                        <div class="col-md-10">Lista de Precios Justos
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" id="precios">
+                    <div class="row">
+                        <div class="col-md-1"><img src="images/pdf.png" alt="">
+                        </div>
+                        <div class="col-md-10">Lista de Precios Justos</div>
+                    </div>
+                </div>
+                <div class="col-md-3" id="precios">
+                    <div class="row">
+                        <div class="col-md-1"><img src="images/pdf.png" alt="">
+                        </div>
+                        <div class="col-md-10">Lista de Precios Justos</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-offset-1" id="precios">
+                    <div class="row">
+                        <div class="col-md-1"><img src="images/pdf.png" alt="">
+                        </div>
+                        <div class="col-md-10">Lista de PMVP</div>
+                    </div>
+                </div>
+                <div class="col-md-3" id="precios">
+                    <div class="row">
+                        <div class="col-md-1"><img src="images/pdf.png" alt="">
+                        </div>
+                        <div class="col-md-10">Lista de PMVP</div>
+                    </div>
+                </div>
+                <div class="col-md-3" id="precios">
+                    <div class="row">
+                        <div class="col-md-1"><img src="images/pdf.png" alt="">
+                        </div>
+                        <div class="col-md-10">Lista de PMVP</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-offset-1" id="lab">Laboratorios Leticonsumo
+                    <br> RIF: J-00281649-0 </div>
+                <div class="col-md-3" id="lab">
+                    Laboratorios Letifem, S.A.
+                    <br> RIF:
+                </div>
+                <div class="col-md-3" id="lab"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-offset-1" id="logo"><img src="images/admin-logo.jpg" alt="" id="logo4">
+                </div>
+                <div class="col-md-3" id="logo"><img src="images/letifem.jpg" alt="" id="logo5">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-offset-1" id="precios">
+                    <div class="row">
+                        <div class="col-md-1"><img src="images/pdf.png" alt="">
+                        </div>
+                        <div class="col-md-10">Lista de Precios Justos</div>
+                    </div>
+                </div>
+                <div class="col-md-3" id="precios">
+                    <div class="row">
+                        <div class="col-md-1"><img src="images/pdf.png" alt="">
+                        </div>
+                        <div class="col-md-10">Lista de Precios Justos</div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row">
+                <!--               div.col-md-1+div.col-md-10+div.col-md-1-->
+
+
+                <div class="col-md-3 col-xs-offset-1" id="precios1">
+
+
+                </div>
+
+                <div class="col-md-3" id="precios">
+                    <div class="row">
+                        <div class="col-md-1"><img src="images/pdf.png" alt="">
+                        </div>
+                        <div class="col-md-10">Lista de PMVP</div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </section>
+    <!--   desde aqui seccion "contactanos"-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row" id="contactanos">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-1">
+                        <h1>Contáctanos </h1>
+                    </div>
+                </div>
+                <div class="row" id="contactame">
+                    <div class="col-md-5 col-md-offset-1">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Nombre</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Email</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Mensaje</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+
+
+                            <button type="submit" class="btn btn-default">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        Dirección
+                        <br> Edo. Miranda, Ciudad Guarenas, Av. 2 Manzana J, Edificio Leti,
+                        <br> Piso Pb, Local Parcela 3, Sector Zona Industrial del Este
+                        <br> Télefonos
+                        <br> 0212-3602673
+                        <br> Email
+                        <br> info@leti.com.ve
+                        <br>
+                    </div>
+                    <a class="right carousel-control" href="#" role="button" data-slide="next" id="right2">
+                        <div class="circle">
+                            <div class="arrow" id="up">
+                            </div>
+                        </div>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+                <div class="row" id="derechos">
+                    Todos los derechos reservados
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 
